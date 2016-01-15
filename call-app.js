@@ -8,7 +8,7 @@ ifr.style.left = '-1000px';
 ifr.style.top = '-1000px';
 ifr.style.width = '1px';
 ifr.style.height = '1px';
-// 设置一个4秒的动画用于检查客户端是否被调起
+// 设置一个1秒的动画用于检查客户端是否被调起
 ifr.style.webkitTransition = 'all 1s';
 document.body.appendChild(ifr);
 setTimeout(function(){
